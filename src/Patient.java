@@ -16,11 +16,39 @@ class Patient {
         this.appointmentDay = null;
     }
 
-    // Getter methods for name, age, gender, symptoms, treatment, appointmentDay
-    // TODO
+      // Getter methods
+    public String getName() {
+        return name;
+    }
 
-    // Setter methods for treatment, appointmentDay
-    // TODO
+    public int getAge() {
+        return age;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public String getSymptoms() {
+        return this.symptoms;
+    }
+
+    public String getTreatment() {
+        return treatment;
+    }
+
+    public String getAppointmentDay() {
+        return appointmentDay;
+    }
+
+    // Setter methods
+    public void setTreatment(String treatment) {
+        this.treatment = treatment;
+    }
+
+    public void setAppointmentDay(String appointmentDay) {
+        this.appointmentDay = appointmentDay;
+    }
 
     
     /* The below equals() and hashCode() methods are crucial for the proper functioning of 

@@ -22,11 +22,11 @@ class Patient {
     }
 
     public int getAge() {
-        return age;
+        return this.age;
     }
 
     public String getGender() {
-        return gender;
+        return this.gender;
     }
 
     public String getSymptoms() {
@@ -34,11 +34,11 @@ class Patient {
     }
 
     public String getTreatment() {
-        return treatment;
+        return this.treatment;
     }
 
     public String getAppointmentDay() {
-        return appointmentDay;
+        return this.appointmentDay;
     }
 
     // Setter methods
